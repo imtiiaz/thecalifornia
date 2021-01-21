@@ -12,13 +12,13 @@ $(function () {
         responsive: [
 
             {
-                breakpoint: 1200,
+                breakpoint: 1500,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1
                 }
            }, {
-                breakpoint: 800,
+                breakpoint: 991,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1

@@ -161,12 +161,21 @@ a:focus,
     color: #e11c26;
 }
 
+@media only screen and (max-width:600px) {
+    .header ul li a {
+        font-size: 11px;
+        padding-top: 8px;
+        padding-right: 15px;
+    }
+}
+
 
 
 
 /* 3.-------------------------------------------
                     California Part
 -----------------------------------------------*/
+
 .california {
     padding-top: 60px;
     padding-bottom: 70px;
@@ -223,6 +232,17 @@ a:focus,
     border: none;
     outline: 0;
     box-shadow: none;
+}
+
+@media only screen and (max-width:600px) {
+    .california {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .california_middle {
+        padding: 21px 0;
+    }
 }
 
 
@@ -314,10 +334,6 @@ a:focus,
         border-radius: 5px;
     }
 
-    .california_middle {
-        padding: 40px 0;
-    }
-
     .navbar .navbar-nav .nav-item .nav-link {
         padding: 0 10px 20px;
     }
@@ -383,6 +399,73 @@ a:focus,
     bottom: 0;
     width: 3px;
     background: #e11c26;
+}
+
+@media only screen and (max-width:1400px) {
+    .stories_text h3 {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width:1085px) {
+    .stories_text {
+        margin: 5px 0;
+    }
+
+    .stories_text h3 {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .stories_text {
+        margin: 25px 0;
+    }
+
+    .stories_text h3 {
+        font-size: 16px;
+        padding-bottom: 5px;
+    }
+
+    .stories_text p {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:680px) {
+    .stories_text {
+        margin: 17px 0;
+    }
+
+    .stories_text h3 {
+        font-size: 14px;
+        padding-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+
+    .top_stories.pb-30 {
+        padding-bottom: 0;
+    }
+
+    .stories_item {
+        margin-top: 15px;
+        padding: 20px 0 0;
+    }
+
+    .stories_text {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
+    }
+
+    .stories_text:after {
+        content: none;
+    }
 }
 
 /* 6.-------------------------------------------
@@ -589,24 +672,48 @@ footer ul li {
     padding: 0 10px;
 }
 
+@media only screen and (max-width:991px) {
+    .california_middle {
+        padding: 30px;
+    }
+}
 
+@media only screen and (max-width:767px) {
+    .body {
+        padding: 0 0;
+    }
+
+    .main_body h1 {
+        font-size: 32px;
+    }
+
+    .right_head h3 .millions {
+        right: -5px;
+    }
+
+    .right_head h3 .millions {
+        font-size: 12px;
+    }
+
+    .right_head h3 .millions span {
+        font-size: 32px;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    .social_link {
+        margin-left: 0;
+    }
+
+}
 
 /* 7.-------------------------------------------
                     About Part
 -----------------------------------------------*/
 
-.Rectangle_2 {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(214, 214, 214);
-    background-color: rgb(244, 246, 251);
-    position: absolute;
-    left: -3px;
-    top: 327px;
-    width: 1370px;
-    height: 190px;
-    z-index: 2;
-}
+
 
 
 /* 8.-------------------------------------------
