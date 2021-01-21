@@ -418,27 +418,14 @@ a:focus,
     border-radius: 20px;
 }
 
-
-.stories_text {
-    margin: 25px 0;
-    padding-right: 15px
-}
-
-.stories_text h3 {
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    line-height: 1;
-    color: #000000;
-    padding-bottom: 10px;
-}
-
 .stories_text {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     color: #000000;
     position: relative;
+    margin: 5px 0;
+    padding-right: 15px
 }
 
 .stories_text:after {
@@ -451,13 +438,22 @@ a:focus,
     background: #e11c26;
 }
 
+.stories_text h3 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.stories_text p {
+    font-size: 14px;
+}
+
 @media only screen and (max-width:1440px) {
     .top_stories_text h3 {
         padding: 40px 84px 50px 50px;
-    }
-
-    .stories_text {
-        margin: 13px 0;
     }
 
     .stories_text h3 {
@@ -472,9 +468,6 @@ a:focus,
 }
 
 @media only screen and (max-width:1085px) {
-    .stories_text {
-        margin: 5px 0;
-    }
 
     .stories_text h3 {
         font-size: 14px;
@@ -502,9 +495,6 @@ a:focus,
 }
 
 @media only screen and (max-width:991px) {
-    .stories_text {
-        margin: 25px 0;
-    }
 
     .stories_text h3 {
         font-size: 16px;
