@@ -1,0 +1,619 @@
+/* 1.---------------------------------------------
+                Template default css
+------------------------------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    overflow-x: hidden;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: ;
+    text-transform: capitalize;
+    color: #212121;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: capitalize;
+    color: #2c2c2c;
+}
+
+
+a:focus,
+.button:focus,
+.btn:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+}
+
+/* 2.-------------------------------------------
+                    Header Part
+-----------------------------------------------*/
+
+.header {
+    background: #f4f6fb;
+    padding-bottom: 17px;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    font-size: 12px;
+    color: #171717;
+    text-transform: uppercase;
+    padding-top: 17px;
+    padding-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.header ul li a.contribute {
+    font-size: 12px;
+    color: #e11c26;
+    line-height: 1;
+    border: 1px solid #e11c26;
+    border-radius: 5px;
+    padding: 8px 13px;
+
+}
+
+.header_right ul li:first-child a {
+    text-transform: capitalize;
+}
+
+.header_right ul {
+    display: inline-block;
+}
+
+.social_link {
+    margin-left: 20px;
+}
+
+.social_link li a i {
+    font-size: 14px;
+    color: #606060;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.social_link li a i:hover {
+    color: #e11c26;
+}
+
+
+
+
+/* 3.-------------------------------------------
+                    California Part
+-----------------------------------------------*/
+.california {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.california h3 {
+    font-size: 20px;
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.california_right {
+    display: inline-block;
+    background: #e11c26;
+    padding-bottom: 30px;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.search {
+    position: relative;
+}
+
+.search:after {
+    position: absolute;
+    content: "\f002";
+    font-size: 14px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+    padding: 5px 10px;
+    color: #606060;
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 5px 0px rgba(61, 116, 255, 0.17);
+}
+
+.california_right input {
+    font-size: 18px;
+    color: #313131;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: rgb(244, 246, 251);
+    padding: 12px 0 12px 18px;
+    border: none;
+    position: relative;
+}
+
+.california_right input:focus {
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+/* 4.-------------------------------------------
+                    Menu Part
+-----------------------------------------------*/
+.navbar-toggler i {
+    color: #e11c26;
+    padding: 5px 10px;
+    border: 1px solid #e11c26;
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    margin: 10px 0;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+    box-shadow: 0;
+}
+
+.menu {
+    border-top: 1px solid #d6d6d6;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+    color: #1a1a1a;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    font-weight: 600;
+    padding: 25px 10px;
+    position: relative;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 14px;
+    color: #1a1a1a;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 25px 10px;
+    position: relative;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #e11c26;
+}
+
+.navbar .navbar-nav .nav-link:after {
+    position: absolute;
+    content: '';
+    left: 5px;
+    bottom: 15px;
+    height: 2px;
+    background: #e11c26;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -os-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.navbar .navbar-nav .nav-link:hover:after {
+    right: 5px;
+}
+
+.navbar .navbar-nav .active .nav-link {
+    color: #e11c26;
+}
+
+.navbar .navbar-nav .active .nav-link:after {
+    right: 5px;
+}
+
+
+@media only screen and (max-width:991px) {
+    .navbar-toggler i {
+        color: #e11c26;
+        padding: 5px 10px;
+        border: 1px solid #e11c26;
+        border-radius: 5px;
+    }
+
+    .california_middle {
+        padding: 40px 0;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        padding: 0 10px 20px;
+    }
+
+    .navbar .navbar-nav .nav-link:after {
+        content: none;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .menu {
+        overflow: scroll;
+    }
+}
+
+
+
+/* 5.-------------------------------------------
+                    Top Storie Part
+-----------------------------------------------*/
+
+.top_stories {
+    overflow-x: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    background-color: rgb(244, 246, 251);
+}
+
+.stories_item {
+    background: #fff;
+    border-radius: 20px;
+}
+
+
+.stories_text {
+    margin: 25px 0;
+    padding-right: 15px
+}
+
+.stories_text h3 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.stories_text {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    position: relative;
+}
+
+.stories_text:after {
+    position: absolute;
+    content: '';
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: #e11c26;
+}
+
+/* 6.-------------------------------------------
+                    Body Part
+-----------------------------------------------*/
+.body {
+    padding: 30px 0;
+}
+
+.head h3 {
+    font-size: 16px;
+    color: #212121;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.head h3:after {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 60%;
+    bottom: 0;
+    height: 3px;
+    z-index: 999;
+    background: #e11c26;
+}
+
+.head h3:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 90%;
+    bottom: 1px;
+    height: 1px;
+    background: #c5c5c5;
+}
+
+.red_text {
+    padding-top: 35px;
+}
+
+.red_text a {
+    font-size: 14px;
+    color: #e11c26;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.red_text a:hover {
+    text-decoration: underline;
+}
+
+.red_text h4 {
+    font-size: 14px;
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 15px 0;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.red_text p {
+    font-size: 15px;
+    color: #929292;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.red_text p a {
+    font-size: 15px;
+    color: #929292;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.main_body h1 {
+    font-size: 42px;
+    color: #2c2c2c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.main_body h3 {
+    font-size: 17px;
+    color: #8d8d8d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 15px 0 20px;
+    text-transform: uppercase;
+    line-height: 1.6
+}
+
+.main_body h3 span {
+    color: #fff;
+    padding: 5px 10px;
+    background: #ff6868;
+    border-radius: 5px;
+}
+
+.main_body h4 {
+    color: #323232;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.main_body img {
+    margin: 40px 0;
+}
+
+.right_head h3 {
+    font-size: 15px;
+    color: #212121;
+    font-weight: 700;
+    padding-right: 100px;
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.right_head h3 .millions {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    background: #e11c26;
+    padding: 10px 15px;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    top: -20px;
+}
+
+.right_head h3 .millions span {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 500;
+    display: block;
+}
+
+.right_head h4 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #212121;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.button {
+    display: inline-block;
+    position: relative;
+}
+
+.button .btn {
+    text-transform: uppercase;
+    padding: 13px 40px;
+    background: #e01c26;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.button input {
+    font-size: 14px;
+    color: #313131;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: rgb(244, 246, 251);
+    padding: 15px 0 15px 18px;
+    border: none;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.button input:focus {
+    outline: 0;
+}
+
+footer {
+    background: #f4f6fb;
+    padding: 20px 50px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #606060;
+    font-weight: 500;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+
+/* 7.-------------------------------------------
+                    About Part
+-----------------------------------------------*/
+
+.Rectangle_2 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 214, 214);
+    background-color: rgb(244, 246, 251);
+    position: absolute;
+    left: -3px;
+    top: 327px;
+    width: 1370px;
+    height: 190px;
+    z-index: 2;
+}
+
+
+/* 8.-------------------------------------------
+                    About Part
+-----------------------------------------------*/
+
+
+/* 9.-------------------------------------------
+                    About Part
+-----------------------------------------------*/
