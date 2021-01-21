@@ -356,6 +356,7 @@ a:focus,
 -----------------------------------------------*/
 
 .top_stories {
+    overflow-x: hidden;
     border-style: solid;
     border-width: 1px;
     border-color: rgb(214, 214, 214);
@@ -363,6 +364,10 @@ a:focus,
 }
 
 /*======*/
+
+.top_stories_text {
+    position: relative;
+}
 
 .top_stories_text h3 {
     background: #e11c26;
@@ -373,6 +378,7 @@ a:focus,
     text-transform: uppercase;
     color: #fff;
     padding: 40px 120px 50px 50px;
+    display: inline-block;
 }
 
 .top_stories_text h3:before {
@@ -389,8 +395,8 @@ a:focus,
 
 .stories {
     position: absolute;
-    right: 30px;
-    bottom: 30px;
+    right: 40px;
+    bottom: 15px;
     background: #363636;
     line-height: 1;
     clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0 100%);
@@ -403,21 +409,6 @@ a:focus,
     padding: 10px 40px;
     position: relative;
     z-index: -1;
-}
-
-.stories h4:after {
-    position: absolute;
-    right: 10px;
-    bottom: 0;
-    width: 20px;
-    height: 0;
-    content: "";
-    background: #000;
-    border-top: 11px solid Transparent;
-    border-bottom: 12px solid Transparent;
-    border-right: 10px solid Transparent;
-    transform: skewX(-9deg);
-    z-index: 9999999;
 }
 
 /*=========*/
@@ -460,11 +451,24 @@ a:focus,
     background: #e11c26;
 }
 
-@media only screen and (max-width:1400px) {
+@media only screen and (max-width:1440px) {
+    .top_stories_text h3 {
+        padding: 40px 84px 50px 50px;
+    }
+
+    .stories_text {
+        margin: 13px 0;
+    }
+
     .stories_text h3 {
         font-size: 14px;
         padding-bottom: 5px;
     }
+
+    .stories_text p {
+        font-size: 12px;
+    }
+
 }
 
 @media only screen and (max-width:1085px) {
@@ -476,6 +480,25 @@ a:focus,
         font-size: 14px;
         padding-bottom: 5px;
     }
+
+    .top_stories_text h3 {
+        font-size: 32px;
+        padding: 20px 100px 40px 20px;
+    }
+
+    .stories {
+        right: 50px;
+        bottom: 10px;
+    }
+
+    .stories h4 {
+        color: #fff;
+        font-size: 12px;
+        padding: 8px 30px;
+        position: relative;
+        z-index: -1;
+    }
+
 }
 
 @media only screen and (max-width:991px) {
@@ -524,6 +547,10 @@ a:focus,
 
     .stories_text:after {
         content: none;
+    }
+
+    .top_stories_text {
+        display: inline-block;
     }
 }
 
