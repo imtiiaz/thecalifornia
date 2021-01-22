@@ -3,7 +3,7 @@ $(function () {
     $('.top_stories_slider').slick({
         dots: false,
         infinite: true,
-        autoplay: true,
+        autoplay: false,
         arrows: false,
         autoplaySpeed: 800,
         speed: 1500,
@@ -18,7 +18,7 @@ $(function () {
                     slidesToScroll: 1
                 }
            }, {
-                breakpoint: 991,
+                breakpoint: 800,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
